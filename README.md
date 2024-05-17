@@ -34,31 +34,31 @@ ils font tous les deux appel à la couche service et au DTOs</p>
 
 <h4>Test des actions (Customer):</h4>
 <h5>liste des customers :</h5>
-<img src="./captures/img_2.png" width="600"/>
+<img src="./captures/img_2.png" width="500"/>
 
 <h5>Get customer :</h5>
-<img src="./captures/img_3.png" width="600"/>
+<img src="./captures/img_3.png" width="500"/>
 
 
 <h5>Add customer :</h5>
-<img src="./captures/img_4.png" width="600"/>
+<img src="./captures/img_4.png" width="500"/>
 
 <h5>Update customer :</h5>
-<img src="./captures/img_5.png" width="600"/>
+<img src="./captures/img_5.png" width="500"/>
 
 <h4>Test des actions (BankAccount):</h4>
 
 <h5>liste des comptes :</h5>
-<img src="./captures/img_6.png" width="600"/>
+<img src="./captures/img_6.png" width="500"/>
 
 <h5>Get compte :</h5>
-<img src="./captures/img_7.png" width="600"/>
+<img src="./captures/img_7.png" width="500"/>
 
 <h5>Get l'historique du compte :</h5>
-<img src="./captures/img_8.png" width="600"/>
+<img src="./captures/img_8.png" width="500"/>
 
 <h5>Operation de transfert :</h5>
-<img src="./captures/img_9.png" width="600"/>
+<img src="./captures/img_9.png" width="500"/>
 
 
 
