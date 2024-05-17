@@ -2,7 +2,7 @@
 
 <h3>Présentation du projet Digital Banking</h3>
 
-<p>Ce projet consiste à concevoir une application de e_banking pour digitaliser le 
+<p>Ce projet consiste à concevoir une application de e_banking pour digitaliser  
 les processus des banques, la création des comptes et les différentes opérations
 effectuées sur un compte bancaire.<br></br>Ce projet a été réalisé en se basant sur 
 l'architecture JEE avec Spring pour le backend et Angular pour le frontend.
