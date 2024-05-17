@@ -1,4 +1,4 @@
-<h1>Compte rendu du projet e_banking</h1>
+<h1>Compte rendu du projet e_banking (Backend)</h1>
 
 <h3>Présentation du projet Digital Banking</h3>
 
