@@ -11,7 +11,7 @@ l'architecture JEE avec Spring pour le backend et Angular pour le frontend.
 
 <h3>Compte rendu du Backend</h3>
 <h4>Diagramme de classe</h4>
-<img src="./captures/diagrammeClasse.png"/>
+<img src="./captures/diagrammeClasse.png" width="300" />
 
 <h4>Single table</h4>
 <p>Afin de représenter l'héritage dans le modèle relationnel j'ai utilisé l'approche
