@@ -18,11 +18,11 @@ l'architecture JEE avec Spring pour le backend et Angular pour le frontend.
 "Single table" qui consiste à créer une table dans la base de données qui va rassembler 
 les attributs de la classe abstraite ainsi que les attributs des classes qui héritent de la classe abstraite
 tout en ajoutant un attribut type pour différencier les comptes épargnes des compte courants.</p>
-<img src="./captures/img.png"/>
+<img src="./captures/img.png" width="500"/>
 
 <h4>Opération du compte</h4>
 <p>Pour chaque compte j'ai créé un ensemble d'operations de débit et de crédit</p>
-<img src="./captures/img_1.png"/>
+<img src="./captures/img_1.png" width="500"/>
 
 <h4>Fonctionnalités:</h4>
 <p>En ce qui concerne les actions j'ai créé deux controlleurs un qui gère
@@ -34,31 +34,31 @@ ils font tous les deux appel à la couche service et au DTOs</p>
 
 <h4>Test des actions (Customer):</h4>
 <h5>liste des customers :</h5>
-<img src="./captures/img_2.png"/>
+<img src="./captures/img_2.png" width="600"/>
 
 <h5>Get customer :</h5>
-<img src="./captures/img_3.png"/>
+<img src="./captures/img_3.png" width="600"/>
 
 
 <h5>Add customer :</h5>
-<img src="./captures/img_4.png"/>
+<img src="./captures/img_4.png" width="600"/>
 
 <h5>Update customer :</h5>
-<img src="./captures/img_5.png"/>
+<img src="./captures/img_5.png" width="600"/>
 
 <h4>Test des actions (BankAccount):</h4>
 
 <h5>liste des comptes :</h5>
-<img src="./captures/img_6.png"/>
+<img src="./captures/img_6.png" width="600"/>
 
 <h5>Get compte :</h5>
-<img src="./captures/img_7.png"/>
+<img src="./captures/img_7.png" width="600"/>
 
 <h5>Get l'historique du compte :</h5>
-<img src="./captures/img_8.png"/>
+<img src="./captures/img_8.png" width="600"/>
 
 <h5>Operation de transfert :</h5>
-<img src="./captures/img_9.png"/>
+<img src="./captures/img_9.png" width="600"/>
 
 
 
