@@ -57,6 +57,9 @@ ils font tous les deux appel à la couche service et au DTOs</p>
 <h5>Get l'historique du compte :</h5>
 <img src="./captures/img_8.png"/>
 
+<h5>Get l'historique du compte avec la pagination :</h5>
+<img src="./captures/img_10.png"/>
+
 <h5>Operation de transfert :</h5>
 <img src="./captures/img_9.png"/>
 
