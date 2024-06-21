@@ -5,7 +5,7 @@
 <p>Ce projet consiste à concevoir une application de e_banking pour digitaliser  
 les processus des banques, la création des comptes et les différentes opérations
 effectuées sur un compte bancaire.<br></br>Ce projet a été réalisé en se basant sur 
-l'architecture JEE avec Spring pour le backend et Angular pour le frontend.
+l'architecture JEE avec Spring pour le backend avec spring security pour la partie sécurité  et Angular pour le frontend.
 </p>
 
 
@@ -62,6 +62,27 @@ ils font tous les deux appel à la couche service et au DTOs</p>
 
 <h5>Operation de transfert :</h5>
 <img src="./captures/img_9.png" width="500"/>
+
+<h3>Partie sécurité avec spring security</h3>
+
+<p>Pour la partie sécurité coté backend, j'ai créé un package qui contient deux classes:</p>
+<ul>
+<li>une classe de configuration: Elle gère les utilisateurs en mémoire et l'encodage des mots de passe.
+Elle définit des filtres de sécurité pour les requêtes HTTP, y compris la configuration des serveurs de ressources OAuth2 pour JWT.
+Elle gère les CORS pour permettre les requêtes de toutes les origines.
+Elle configure un gestionnaire d'authentification basé sur les détails des utilisateurs et un encodeur de mots de passe.</li>
+<li>une classe controlleur: Cette classe gère deux opérations principales :
+
+Récupérer les détails d'authentification de l'utilisateur connecté (/auth/profile).
+Authentifier un utilisateur et générer un token JWT (/auth/login).
+Elle utilise AuthenticationManager pour authentifier les utilisateurs et JwtEncoder pour créer des tokens JWT contenant des informations sur l'utilisateur, 
+telles que le nom d'utilisateur et les rôles.
+
+</li>
+</ul>
+
+
+
 
 
 

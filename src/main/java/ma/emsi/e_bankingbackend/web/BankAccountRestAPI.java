@@ -2,7 +2,6 @@ package ma.emsi.e_bankingbackend.web;
 
 import lombok.AllArgsConstructor;
 import ma.emsi.e_bankingbackend.dtos.*;
-import ma.emsi.e_bankingbackend.entities.BankAccount;
 import ma.emsi.e_bankingbackend.exceptions.BalanceNotSufficientException;
 import ma.emsi.e_bankingbackend.exceptions.BankAccountNotFoundException;
 import ma.emsi.e_bankingbackend.services.BankAccountService;
@@ -12,6 +11,7 @@ import java.util.List;
 
 @RestController
 @AllArgsConstructor
+@CrossOrigin("*")
 public class BankAccountRestAPI {
     private BankAccountService bankAccountService;
 
@@ -55,6 +55,12 @@ public class BankAccountRestAPI {
                 transferRequestDTO.getAccountSource(),
                 transferRequestDTO.getAccountDestination(),
                 transferRequestDTO.getAmount());
+    }
+
+    @GetMapping("/customer-accounts/{customerId}")
+    public List<BankAccountDTO> getCustomerAccounts(@PathVariable long customerId)
+    {
+        return bankAccountService.getCustomerAccounts(customerId);
     }
 
 
